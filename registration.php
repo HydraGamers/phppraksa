@@ -5,15 +5,15 @@
 
 <form action="user_insert.php" method="post">
     <label>Ime</label>
-    <input type="text" name="first_name" placeholder="Vnesi ime" required="required" />
+    <input type="text" name="first_name" placeholder="Vnesi ime" required="required" /><br />
     <label>Priimek</label>
-    <input type="text" name="last_name" placeholder="Vnesi priimek" required="required" />
+    <input type="text" name="last_name" placeholder="Vnesi priimek" required="required" /><br />
     <label>E-pošta</label>
-    <input type="email" name="email" placeholder="Vnesi e-pošto" required="required" />
-    <label>Geslo 1x</label>
-    <input type="password" name="pass1" placeholder="Vnesi geslo" required="required" />
-    <label>Geslo 2x</label>
-    <input type="password" name="pass2" placeholder="Vnesi geslo" required="required" />
+    <input type="email" name="email" placeholder="Vnesi e-pošto" required="required" /><br />
+    <label>Geslo</label>
+    <input type="password" name="pass1" placeholder="Vnesi geslo" required="required" /><br />
+    <label>Geslo (ponovitev)</label>
+    <input type="password" name="pass2" placeholder="Vnesi geslo" required="required" /><br />
     <input type="submit" value="Registriraj" />
 </form>
 

@@ -25,7 +25,9 @@
 				<nav class="right">
                                     <?php
                                         //če je prijavljen - naj bo link na logout, če ne login 
-                                        if (isset($_SESSION['user_id'])) {
+                                        if (isset($_SESSION['user_id']))
+										{
+											?><a href="editprofile.php"><img style="width: 30px; margin:auto;vertical-align: middle;border-radius:300px;margin-top:-5px;" src="<?php echo "images/users/".$_SESSION['avatar'] ?>"></a><span style="font-size: 150%;margin:5px;"><?php echo " "."Hello, ".$_SESSION['first_name']." "; ?></span><?php
                                             echo '<a href="logout.php" class="button alt">Log out</a>';
                                         }
                                         else {
@@ -39,8 +41,9 @@
 		<!-- Menu -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.php">Home</a></li>
+					<li><a href="index.php">Domov</a></li>
 					<li><a href="registration.php">Registracija</a></li>
+					<li><a href="editprofile.php">Uredi profil</a></li>
 					<li><a href="posts.php">Objave</a></li>
 				</ul>
 				<ul class="actions vertical">
