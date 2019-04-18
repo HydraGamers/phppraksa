@@ -2,18 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/xampp/htdocs/dijak/session.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/header.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/login_check.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/login.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/index.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/posts.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/post_insert.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/user_insert.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/post_add.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/database.php</file>
-            <file>file:/D:/xampp/htdocs/dijak/logout.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

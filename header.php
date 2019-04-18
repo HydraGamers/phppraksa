@@ -27,7 +27,7 @@
                                         //če je prijavljen - naj bo link na logout, če ne login 
                                         if (isset($_SESSION['user_id']))
 										{
-											?><a href="editprofile.php"><img style="width: 30px; margin:auto;vertical-align: middle;border-radius:300px;margin-top:-5px;" src="<?php echo "images/users/".$_SESSION['avatar'] ?>"></a><span style="font-size: 150%;margin:5px;"><?php echo " "."Hello, ".$_SESSION['first_name']." "; ?></span><?php
+											?><a href="editprofile.php"><img style="width: 30px; margin:auto;vertical-align: middle;border-radius:300px;margin-top:-5px;" src="<?php echo $_SESSION['avatar'] ?>"></a><span style="font-size: 150%;margin:5px;"><?php echo " "."Hello, ".$_SESSION['first_name']." "; ?></span><?php
                                             echo '<a href="logout.php" class="button alt">Log out</a>';
                                         }
                                         else {
