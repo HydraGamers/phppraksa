@@ -6,7 +6,7 @@
 
 <form action="user_edit.php" method="post">
 	<label>Ime</label>
-    <input type="text" name="first_name" placeholder="Ime" required="required" value="<?php $query1 = "SELECT first_name FROM users WHERE id=$_SESSION[user_id] LIMIT 1"; mysqli_query($link, $query1);?> "/><br />
+    <input type="text" name="first_name" placeholder="Ime" required="required" value="<?php echo $_SESSION[first_name]?>"/><br />
     <label>Priimek</label>
     <input type="text" name="last_name" placeholder="Priimek" required="required" /><br />
     <label>E-pošta</label>
